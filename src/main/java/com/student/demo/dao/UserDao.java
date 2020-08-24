@@ -17,8 +17,11 @@ import org.springframework.stereotype.Repository;
 import com.student.demo.pojo.User;
 
 
+
 @Repository
 public class UserDao {
+	
+	// cooment
 	
 	@Autowired
 	private SessionFactory sessionFactory;
